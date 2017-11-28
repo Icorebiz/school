@@ -19,6 +19,7 @@ class ServiceProvider extends BaseServiceProvider
      */
     public function boot()
     {
+        $this->loadTranslationsFrom(__DIR__.'/resources/lang', 'school');
         $this->loadViewsFrom(__DIR__.'/resources/views', 'school');
         view()->composer('base::left_panel', function ($view) {
             View::make('school::menu')->render();
