@@ -1,6 +1,6 @@
 <?php
 
-namespace Icorebiz\Base;
+namespace Icorebiz\School;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Illuminate\Support\Facades\View;
